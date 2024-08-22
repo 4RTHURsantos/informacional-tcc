@@ -26,6 +26,7 @@ body{
 
 /* Cabeçalho */
 header{
+    z-index: 2;
     position: fixed;
 
     display: flex;
@@ -107,6 +108,10 @@ nav > a:hover{
 .content > section > .section-text{
     display: flex;
     gap: 70px;
+
+    @media only screen and (max-width: 768px) {
+        gap: 10px !important;
+    }
 
     max-width: 800px;
 }
