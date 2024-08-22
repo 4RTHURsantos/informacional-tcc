@@ -130,6 +130,10 @@ nav > a:hover{
 
     padding: 50px 20px !important;
     text-align: justify;
+
+    @media only screen and (max-width: 768px) {
+        flex-direction: column !important;
+    }
 }
 .alter-section > p{
     max-width: 800px;
